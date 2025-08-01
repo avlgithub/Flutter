@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hello_word/models/Pessoa.dart';
-import 'package:hello_word/widgets/pessoaListtile.dart';
 import 'package:hello_word/widgets/statelessWidget.dart';
 
 void main() {
@@ -23,18 +21,6 @@ class MyApp extends StatelessWidget {
           title: const Text("ChatiN")
         ),
         body: const MeuStatelessWidget(),
-        /*
-        body: 
-            PessoaListTile(
-                pessoa: Pessoa(
-                            id: 1, 
-                            nome: "Alberto Lima", 
-                            altura: 184, 
-                            peso: 103.50
-                        ),
-
-            ),
-        */
       ),
     );
   }
