@@ -1,16 +1,26 @@
-# hello_word_listas
+# 📋 Lista de Pessoas em Flutter
 
-A new Flutter project.
+Este projeto é um exercício prático feito com **Flutter** e **Dart** com o objetivo de treinar a criação de **interfaces baseadas em listas** e a organização de componentes personalizados.
 
-## Getting Started
+## 🚀 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Exibição de uma lista de objetos `Pessoa`
+- Dados mockados diretamente no código (sem dependência de API)
+- Layout com `Card` e `ListTile` customizado
+- Estrutura modular com widget separado para cada item da lista
 
-A few resources to get you started if this is your first Flutter project:
+## 🧱 Estrutura
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `models/Pessoa.dart`: modelo da classe Pessoa
+- `widgets/PessoaListTile.dart`: componente que renderiza o visual de cada item da lista
+- `main.dart`: ponto de entrada com `ListView` de pessoas mockadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Como executar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/flutter-lista-pessoas.git
+cd flutter-lista-pessoas
