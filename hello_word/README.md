@@ -1,16 +1,7 @@
-# hello_word
+# hello_word — Interação com botão e diálogo.
 
-A new Flutter project.
+Este é um projeto simples criado como parte dos meus primeiros passos com Flutter. Ele contém uma interface básica com um botão centralizado que, ao ser clicado, exibe uma mensagem de diálogo (AlertDialog) na tela.
 
-## Getting Started
+O objetivo principal deste teste é entender o funcionamento da navegação de contexto, manipulação de eventos (onPressed) e exibição de componentes de interface como botões e caixas de diálogo.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Este exemplo serve como base para evoluções futuras com interações mais complexas e manipulação de estados.
