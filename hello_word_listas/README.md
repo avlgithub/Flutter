@@ -1,16 +1,42 @@
-# hello_word_listas
+# 📋 Lista de Pessoas em Flutter 
 
-A new Flutter project.
+Este projeto é um exercício prático feito com **Flutter** e **Dart**, com o objetivo de treinar a criação de **interfaces baseadas em listas**.
 
-## Getting Started
+## 🚀 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Exibição de uma lista de objetos `Pessoa`
+- Dados mockados diretamente no código (sem dependência de API)
+- Layout com `Card` e `ListTile` customizado
+- Estrutura modular com widget separado para cada item da lista
 
-A few resources to get you started if this is your first Flutter project:
+## 🧱 Estrutura
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `mock/mock_pessoas.dart`: mock dos dados `Pessoa`
+- `models/Pessoa.dart`: modelo da classe `Pessoa`
+- `widgets/PessoaListTile.dart`: componente que renderiza o visual de cada item da lista
+- `main.dart`: ponto de entrada com `ListView` de pessoas mockadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧪 Dados de Teste com Faker
+
+Estamos utilizando o pacote [`faker`](https://pub.dev/packages/faker) para gerar dados mock automaticamente (nomes, números, etc.) durante os testes.
+
+📦 Para adicionar o `faker` ao seu projeto, rode no terminal:
+
+```bash
+flutter pub add faker
+```
+
+## 🛠️ Como rodar o projeto localmente
+
+Após clonar ou baixar o projeto, execute os seguintes comandos no terminal:
+
+```bash
+flutter pub get
+flutter pub upgrade
+```
+
+Em seguida, execute o app com:
+
+```bash
+flutter run
+```
