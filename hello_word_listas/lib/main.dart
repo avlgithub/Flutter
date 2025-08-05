@@ -1,6 +1,5 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-//import 'package:hello_word_listas/models/Pessoa.dart';
 import 'package:hello_word_listas/widgets/lista_pessoas.dart';
 
 void main() {
@@ -30,8 +29,7 @@ class MyApp extends StatelessWidget {
             theme: ThemeData(
                         useMaterial3: false,
                         // Aqui deixei a cor aleatório para mudar ao abrir o app
-                        colorScheme:  ColorScheme.fromSeed(seedColor: corPrimaria),
-                        // colorScheme:  ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 2, 66, 89)),
+                        colorScheme:  ColorScheme.fromSeed(seedColor: corPrimaria)
             ),
 
             home:  
